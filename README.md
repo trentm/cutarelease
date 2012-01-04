@@ -64,3 +64,26 @@ A typical patch fix goes like this (example: [json issue
 - Optionally make a release announcement if significant enough (blog, twitter, mailing list, whatever).
 
 
+# installation
+
+Pick one of the following options:
+
+1.  "cutarelease.py" has no external deps (other than a fairly recent Python
+    2.x). You can just copy it over to your repo's tools directory.
+
+2.  Git submodules. So something like:
+
+        mkdir -p deps
+        git submodule add https://github.com/trentm/cutarelease.git deps/cutarelease
+        git submodule update --init deps/cutarelease
+
+    then use "deps/cutarelease/cutarelease.py" in your Makefile.
+
+Eventually I may publish this to npm so you could `npm install cutalrelease`,
+but I haven't done that yet.
+
+
+# license
+
+MIT. See LICENSE.txt.
+
