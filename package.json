@@ -1,0 +1,17 @@
+{
+  "name": "cut-a-release",
+  "description": "a (Python) command to cut a release of your project, following some conventions",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trentm/cut-a-release.git"
+  },
+  "contributors": [
+    "Trent Mick <trentm@gmail.com>"
+  ],
+  "bin": {
+    "cut-a-release": "./cutarelease.py"
+  },
+  "keywords": ["release", "version", "project", "changelog"]
+}
+
