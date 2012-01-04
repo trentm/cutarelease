@@ -12,7 +12,7 @@ projects:
 
 # project conventions
 
-I use git for version control.
+I **use git** for version control.
 
 I use **'X.Y.Z'** (aka major.minor.patch) versioning for all my projects. Increment
 the `patch` number for a bug fix. Increment the `minor` version for a change
@@ -29,10 +29,10 @@ is often obtuse to the end user and hard to correlate to released versions.
 Basically you want to answer this user question: "I have version N, what will
 it mean for me to upgrade to version M."
 
-I tag my repo for each release using the version number as the tag name.
+I **tag my repo for each release** using the version number as the tag name.
 
-The commited version number at the HEAD of the repo is for the next
-*unreleased* version. So, for example, if "1.2.3" is the latest released
+The commited **version number at the HEAD of the repo is for the next
+*unreleased* version**. So, for example, if "1.2.3" is the latest released
 version, then the version at the repo HEAD is "1.2.4".
 
 
