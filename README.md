@@ -83,7 +83,7 @@ Pick one of the following options:
 
     then use "deps/cutarelease/cutarelease.py" in your Makefile.
 
-Eventually I may publish this to npm so you could `npm install cutalrelease`,
+Eventually I may publish this to npm so you could `npm install cutarelease`,
 but I haven't done that yet.
 
 
