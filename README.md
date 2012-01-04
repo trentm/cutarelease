@@ -54,8 +54,8 @@ project](https://github.com/trentm/json) I have something like this:
     cutarelease:
         python support/cutarelease.py -f package.json -f lib/jsontool.js
 
-A typical patch fix goes like this (example: [json issue
-#23](https://github.com/trentm/json/issues/23)):
+A typical patch fix goes like this (example: 
+[json issue #23](https://github.com/trentm/json/issues/23)):
 
 - Commit a fix for the issue ([commit](https://github.com/trentm/json/commit/f43c627)).
   This includes an [update to the changelog](https://github.com/trentm/json/commit/f43c627#diff-0).
