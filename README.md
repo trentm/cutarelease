@@ -60,8 +60,12 @@ A typical patch fix goes like this (example:
 - Commit a fix for the issue ([commit](https://github.com/trentm/json/commit/f43c627)).
   This includes an [update to the changelog](https://github.com/trentm/json/commit/f43c627#diff-0).
 - Comment on and close the issue ([comment](https://github.com/trentm/json/issues/23#issuecomment-2523558)).
-- Run `make cutarelease`.
-- Optionally make a release announcement if significant enough (blog, twitter, mailing list, whatever).
+- Run `make cutarelease` (which did [these two
+  commits](https://github.com/trentm/json/compare/f43c627406...2a41d3a) and
+  tags after the first of those)
+- Optionally make a release announcement if significant enough: blog, twitter,
+  mailing list, whatever. (E.g.
+  [tweet for json 2.0.3](https://twitter.com/#!/trentmick/status/133990424988745728)).
 
 
 # installation
