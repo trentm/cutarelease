@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (c) 2009-2011 Trent Mick
+# Copyright (c) 2009-2012 Trent Mick
 
 """cutarelease -- Cut a release of your project.
 
