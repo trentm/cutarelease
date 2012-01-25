@@ -120,7 +120,7 @@ def cutarelease(project_name, version_files, dry_run=False):
         raise Error("'%s' not found" % changes_path)
     changes_txt = changes_txt_before = codecs.open(changes_path, 'r', 'utf-8').read()
     
-    changes_parser = re.compile(r'^## (%s )?(?P<ver>[\d\.abc]+)'
+    changes_parser = re.compile(r'^## (?:%s )?(?P<ver>[\d\.abc]+)'
         r'(?P<nyr>\s+\(not yet released\))?'
         r'(?P<body>.*?)(?=^##|\Z)' % project_name, re.M | re.S)
     changes_sections = changes_parser.findall(changes_txt)
