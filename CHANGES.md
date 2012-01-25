@@ -2,7 +2,8 @@
 
 ## cutarelease 1.0.1 (not yet released)
 
-(nothing yet)
+- [issue #1] Don't require the project name in the CHANGES.md h2's.
+
 
 ## cutarelease 1.0.0
 
