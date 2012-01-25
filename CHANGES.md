@@ -1,6 +1,6 @@
 # cutarelease Changelog
 
-## cutarelease 1.0.1 (not yet released)
+## cutarelease 1.0.1
 
 - [issue #1] Don't require the project name in the CHANGES.md h2's.
 
