@@ -1,5 +1,10 @@
 # cutarelease Changelog
 
+## cutarelease 1.0.4 (not yet released)
+
+- Fix to 1.0.3 '-f' improvements.
+
+
 ## cutarelease 1.0.3
 
 - Improvements in handling "version files" -- those passed in with "-f" arg.

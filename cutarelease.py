@@ -200,7 +200,7 @@ def cutarelease(project_name, version_files, dry_run=False):
     for i, ver_file in enumerate(version_files):
         ver_content = codecs.open(ver_file, 'r', 'utf-8').read()
         ver_file_type, ver_info = parsed_version_files[i]
-        if ver_file_type == "package.json":
+        if ver_file_type == "json":
             marker = '"version": "%s"' % version
             if marker not in ver_content:
                 raise Error("couldn't find `%s' version marker in `%s' "
