@@ -1,6 +1,6 @@
 # cutarelease Changelog
 
-## cutarelease 1.0.3 (not yet released)
+## cutarelease 1.0.3
 
 - Improvements in handling "version files" -- those passed in with "-f" arg.
   Support "-f type:path" in addition to the existing "-f path" to be explicit
