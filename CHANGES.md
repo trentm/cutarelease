@@ -1,6 +1,6 @@
 # cutarelease Changelog
 
-## cutarelease 1.0.4 (not yet released)
+## cutarelease 1.0.4
 
 - Fix to 1.0.3 '-f' improvements.
 
