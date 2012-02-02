@@ -1,6 +1,6 @@
 # cutarelease Changelog
 
-## cutarelease 1.0.2 (not yet released)
+## cutarelease 1.0.2
 
 - [issue #1 follow up] Looser req's on project name in CHANGES.md h2's.
 
