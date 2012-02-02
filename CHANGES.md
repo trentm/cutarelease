@@ -2,7 +2,11 @@
 
 ## cutarelease 1.0.3 (not yet released)
 
-(nothing yet)
+- Improvements in handling "version files" -- those passed in with "-f" arg.
+  Support "-f type:path" in addition to the existing "-f path" to be explicit
+  about the type (one of "javascript", "python", "json" or "version"). Also
+  improve the guessing to be able to pick up on the shebang line in scripts.
+
 
 ## cutarelease 1.0.2
 
