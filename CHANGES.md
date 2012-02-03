@@ -1,5 +1,9 @@
 # cutarelease Changelog
 
+## cutarelease 1.0.6 (not yet released)
+
+(nothing yet)
+
 ## cutarelease 1.0.5
 
 - Fix npm package name (had forgotten unwanted hyphens in naming).
