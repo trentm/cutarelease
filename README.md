@@ -4,8 +4,8 @@ release of your project a single step.
 Basically, it will help cut a release for a git-based project that follows
 a few conventions. It'll **update your changelog** (CHANGES.md), add a **git
 tag**, **push** those changes, **optionally `npm publish`** (for projects
-with a "package.json"), optionally **upload to
-[pypi](http://pypi.python.org/pypi)** (for Python projects with a setup.py),
+with a "package.json"), **optionally upload to** [pypi](http://pypi.python.org/pypi)
+(for Python projects with a setup.py),
 **update your version to the next patch level release**, and **insert
 changelog boilerplate** for the new version.
 
