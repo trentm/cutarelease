@@ -1,5 +1,10 @@
 # cutarelease Changelog
 
+## cutarelease 1.0.7 (not yet released)
+
+(nothing yet)
+
+
 ## cutarelease 1.0.6
 
 - [issue #4] Fix handling of changelog version lines without the project name
