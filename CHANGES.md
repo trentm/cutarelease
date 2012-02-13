@@ -2,7 +2,9 @@
 
 ## cutarelease 1.0.6 (not yet released)
 
-(nothing yet)
+- [issue #4] Fix handling of changelog version lines without the project name
+  in the h2.  E.g. "## 1.0.0 (not yet released)".
+
 
 ## cutarelease 1.0.5
 
