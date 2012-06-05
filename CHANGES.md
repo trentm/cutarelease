@@ -1,6 +1,6 @@
 # cutarelease Changelog
 
-## cutarelease 1.0.7 (not yet released)
+## cutarelease 1.0.7
 
 - [issue #5] Allow single-quoting in javascript file version marker, e.g.:
 
