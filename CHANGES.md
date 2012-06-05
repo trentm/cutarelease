@@ -2,7 +2,9 @@
 
 ## cutarelease 1.0.7 (not yet released)
 
-(nothing yet)
+- [issue #5] Allow single-quoting in javascript file version marker, e.g.:
+
+        var VERSION = '1.2.3';
 
 
 ## cutarelease 1.0.6
