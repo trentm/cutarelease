@@ -1,7 +1,7 @@
 {
   "name": "cutarelease",
   "description": "a (Python) command to cut a release of your project, following some conventions",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
   "repository": {
     "type": "git",
