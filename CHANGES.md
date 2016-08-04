@@ -2,8 +2,16 @@
 
 ## cutarelease 1.0.8 (not yet released)
 
-(nothing yet)
-
+- Change commit message for the release commit:
+        before: "prepare for $version release"
+        after: "$version"
+- Add release date to the tag:
+        before: "version $version"
+        after: "version $version ($date)"
+- Change commit message for bumping the ver (i.e. the commit after the
+  release commit):
+        before: "prep for future dev"
+        after: "bumpver for subsequent work"
 
 ## cutarelease 1.0.7
 
@@ -50,4 +58,3 @@
 
 Initial release, taken from json/support/cut_a_release.py (which I think is the
 latest of a number of forks of this script I have kicking around).
-
