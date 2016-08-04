@@ -1,6 +1,6 @@
 # cutarelease Changelog
 
-## cutarelease 1.0.8 (not yet released)
+## cutarelease 1.0.8
 
 - Change commit message for the release commit:
         before: "prepare for $version release"
